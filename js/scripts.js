@@ -28,11 +28,11 @@ var converter = function(numberInput) {
   for (var i = 0; i <= romans.length; i++) {
 
 
-//this while loop tells the for loop to run as long as the following conditions in the block of code are true. The while loop runs while numberInput is less than or equal to the current value of i in the decimal array.
+//this while loop tells the for loop to run as long as the following conditions in the block of code are true. The while loop runs while numberInput is less than or equal to the value of the element selected by i in the decimal array.
     while (numberInput >= decimals[i]) {
 
 
-//if the while condition is true, the two statements below are executed. numberInput is decreased by whatever value is currently assinged to decimals at the current position in the array. It also makes result equal to whichever value is currently held by i in the romans array.//
+//if the while condition is true, the two statements below are executed. numberInput is decreased by whatever value is currently assinged to decimals at the current position in the array (for example, if our numberInput was 8, it would be greater than or equal to the decimal value 5 in the decimals array. 5 has the index value of 10, which corresponds to V in the romans array). The second statement then pushes the roman numeral V into the results variable, then the first statement searches the decimals array for 3. This will give us the decimals value 1, and we will repeat the process over again until we have no remainder value. (in the example this would mean 8 becomes 8-5 becomes 3-1 becomes 2-1 becomes 1-1 resulting in the numerals VIII)
       numberInput -= decimals[i];
       result += romans[i];
     }
