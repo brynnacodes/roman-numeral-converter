@@ -10,6 +10,15 @@ var converter = function(numberInput) {
   if (numberInput <= 0 || numberInput >= 4000) {
     return numberInput;
   }
+
+    var romanNumeral = "";
+    for (var i=0; i < romans.length; i++) {
+      while (numberInput >= decimals[i]) {
+          numberInput -= decimals[i];
+          romanNumeral += romans[i];
+      }
+    }
+    return romanNumeral;
   };
 
 
@@ -31,8 +40,6 @@ $(document).ready(function() {
     event.preventDefault();
 
     var numberInput = parseInt($("#number-input").val());
-
-    // alert(numberInput)
 
     var numberOutput = converter(numberInput);
 
