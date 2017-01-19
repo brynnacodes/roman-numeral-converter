@@ -21,8 +21,8 @@ var converter = function(numberInput) {
   }
 
 //the variable result is defined as an empty string
-
     var result = "";
+
 
 //this for statement takes three parameters-the initialization parameter is a variable called i which is set to 0 (this tells the for loop where to start)-the condition parameter tells the loop to keep running as long as the variable i is less than the total length (note: .length is not a method, but rather a property of an array) of the romans array(12; so it will stop at the end of the romans array)-the final expression parameter is i++ which will change the initial value of i(initializing at 0) by one increment each time the loop is executed//
   for (var i = 0; i <= romans.length; i++) {

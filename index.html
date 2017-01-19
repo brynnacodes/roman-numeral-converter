@@ -4,30 +4,29 @@
     <meta charset="utf-8">
     <title>Roman Numeral Converter</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nova+Script|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
 
   <body>
-    <div class="header">
-      <img src="img/ancient-rome.jpg" alt="image of roman ruins" height="250"/>
-      <h1>Roman Numeral Converter</h1>
-    </div>
-
     <div class="container">
+      <div class="header">
+        <h1>Roman Numeral Converter</h1>
+        <img src="img/ancient-rome.jpg" alt="image of roman ruins"/>
+      </div>
+
       <form id="roman-converter">
         Quantity (between 1 and 3999):
         <input id="number-input" type="number" name="quantity">
 
         <button class="btn" type="submit" name="button">Submit</button>
-
       </form>
 
       <div id="results">
         <p>Here is your number as a roman numeral:<br><span id="numeral-results"></span></p>
+      </div>
     </div>
-
   </body>
 </html>
