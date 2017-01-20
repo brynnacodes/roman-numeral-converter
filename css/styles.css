@@ -1,5 +1,5 @@
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', serif;
   background-color: #d2f1f9;
 }
 
@@ -30,5 +30,5 @@ form {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
