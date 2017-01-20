@@ -13,6 +13,7 @@ This program uses JavaScript for and while loops, as well as arrays and simple f
 * Open index.html in your preferred web browser
 * Enter a number between 1 and 3999 and press submit
 * Your roman numeral conversion will appear below!
+* Alternately, please visit https://brynnacodes.github.io/roman-numeral-converter/ to see the live version of this webpage
 
 ## Known Bugs
 
@@ -20,8 +21,8 @@ There are no known bugs in this program.
 
 ## Support and contact details
 
-Please contact Brynna Klamkin-McCarter with questions, comments, support or suggestions.
-
+ Please contact Brynna Klamkin-McCarter for support questions, comments, or suggestions.
+ 
 ## Technologies Used
 
 * HTML
